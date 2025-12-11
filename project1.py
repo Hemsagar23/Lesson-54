@@ -11,8 +11,6 @@ def multiply_N_iterations(N, M):
         result += M
     return result
 
-
-# Example
 N = 5
 M = 7
 
