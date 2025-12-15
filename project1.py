@@ -1,18 +1,7 @@
-def multiply_M_iterations(N, M):
-    result = 0
-    for _ in range(M):
-        result += N
-    return result
+def multiply_one_iteration(N, M):
+    return N * M
 
+N = int(input("Enter N: "))
+M = int(input("Enter M: "))
 
-def multiply_N_iterations(N, M):
-    result = 0
-    for _ in range(N):
-        result += M
-    return result
-
-N = 5
-M = 7
-
-print("Using M iterations:", multiply_M_iterations(N, M))
-print("Using N iterations:", multiply_N_iterations(N, M))
+print("Result:", multiply_one_iteration(N, M))
